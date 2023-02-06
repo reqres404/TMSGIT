@@ -1,5 +1,5 @@
 {
-  "proxy": "http://tms-env.eba-fa7fnfjk.us-east-1.elasticbeanstalk.com/",
+  "proxy": "http://54.226.94.15:4000",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
