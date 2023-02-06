@@ -109,6 +109,7 @@ form button{
   border: 0;
   color: #fff;
   padding: 10px;  
+
 }
 div.error{
   padding: 10px;
@@ -122,9 +123,6 @@ input.error{
   border:1px solid var(--error)
 }
 
-
-
-
 .loginform{
   padding: 10px;
   margin-top: 10px;
@@ -135,7 +133,7 @@ input.error{
   box-sizing: border-box;
   margin: auto;
   width: 40%;
-  /* border: 3px solid green; */
+  border: 3px solid #1aac83;
   padding: 10px;
 }
 .book-button{
@@ -151,4 +149,24 @@ input.error{
 .book-button:hover{
   background-color: #9d0938;
   transform:scale(1.1) ;
+}
+@media (max-width: 600px) {
+
+  .loginform{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 70%;
+    border: 3px solid #1aac83;
+    padding: 10px;
+  }
+  .home{
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
